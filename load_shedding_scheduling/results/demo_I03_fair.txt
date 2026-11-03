@@ -1,0 +1,15 @@
+I03: 10 areas x 12 hours, solver=highs, fair=true
+area  load 12 13 14 15 16 17 18 19 20 21 22 23  off
+H1       3  #  #  #  #  #  #  #  #  #  #  #  #    0
+I2      30  #  #  #  #  #  #  #  .  #  #  #  #    1
+I3      25  #  #  #  #  #  .  #  #  #  .  #  .    3
+R4      15  .  #  #  #  #  #  .  #  #  .  #  #    3
+R5      12  #  #  .  .  #  #  #  #  .  #  #  #    3
+R6      12  #  #  #  #  .  #  #  .  .  #  #  #    3
+R7      12  #  #  #  #  .  #  #  #  .  #  .  #    3
+R8      12  #  .  #  #  #  #  .  #  #  #  .  #    3
+R9      10  #  #  #  .  #  #  #  #  .  #  .  #    3
+R10      5  #  .  .  #  #  #  .  #  #  #  #  #    3
+# = power on, . = power off
+shed load = 339 MWh, worst-hit area = 3 h off, proven optimal
+checks C1-C3: PASS

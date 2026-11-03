@@ -1,0 +1,3 @@
+# Python 3.9+ ; only the figure scripts need a third-party package
+matplotlib>=3.5
+# MiniZinc 2.10 bundle (includes Gecode, Chuffed and HiGHS): https://www.minizinc.org/downloads/
