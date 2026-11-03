@@ -1,0 +1,930 @@
+{
+ "configs": {
+  "Gecode": {
+   "variant": "fair-base",
+   "solver": "Gecode",
+   "proven_optimal": 0,
+   "found": 20,
+   "best_known": 0,
+   "par1": 60.0,
+   "mean_extra_hours": 11.1,
+   "max_off": [
+    4,
+    6,
+    6,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    12,
+    24,
+    24,
+    24,
+    24,
+    24,
+    24,
+    36,
+    36,
+    36
+   ],
+   "optimal": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "time": [
+    60.07,
+    60.05,
+    60.05,
+    60.07,
+    60.1,
+    60.09,
+    60.1,
+    60.1,
+    60.12,
+    60.15,
+    60.13,
+    60.2,
+    60.39,
+    60.35,
+    60.31,
+    60.31,
+    60.38,
+    60.58,
+    60.76,
+    61.07
+   ]
+  },
+  "Chuffed": {
+   "variant": "fair-base",
+   "solver": "Chuffed",
+   "proven_optimal": 0,
+   "found": 4,
+   "best_known": 0,
+   "par1": 60.0,
+   "mean_extra_hours": 2.5,
+   "max_off": [
+    4,
+    6,
+    7,
+    null,
+    null,
+    null,
+    6,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null,
+    null
+   ],
+   "optimal": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "time": [
+    60.06,
+    60.1,
+    60.09,
+    60.1,
+    60.1,
+    60.11,
+    60.12,
+    60.13,
+    60.14,
+    60.19,
+    60.16,
+    60.32,
+    60.29,
+    60.3,
+    60.36,
+    60.42,
+    60.5,
+    60.82,
+    60.86,
+    61.28
+   ]
+  },
+  "HiGHS": {
+   "variant": "fair-base",
+   "solver": "HiGHS",
+   "proven_optimal": 7,
+   "found": 17,
+   "best_known": 10,
+   "par1": 42.05,
+   "mean_extra_hours": 0.0,
+   "max_off": [
+    3,
+    3,
+    3,
+    5,
+    5,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    null,
+    null,
+    null
+   ],
+   "optimal": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "time": [
+    0.29,
+    0.31,
+    0.9,
+    0.71,
+    1.16,
+    1.14,
+    56.53,
+    60.08,
+    60.09,
+    60.11,
+    60.11,
+    60.18,
+    60.23,
+    60.22,
+    60.23,
+    60.28,
+    60.32,
+    155.27,
+    90.11,
+    90.11
+   ]
+  },
+  "HiGHS +I": {
+   "variant": "fair-improved",
+   "solver": "HiGHS",
+   "proven_optimal": 6,
+   "found": 17,
+   "best_known": 13,
+   "par1": 42.26,
+   "mean_extra_hours": 0.0,
+   "max_off": [
+    3,
+    3,
+    3,
+    5,
+    5,
+    4,
+    4,
+    4,
+    4,
+    4,
+    4,
+    8,
+    8,
+    8,
+    8,
+    8,
+    8,
+    null,
+    null,
+    null
+   ],
+   "optimal": [
+    true,
+    true,
+    true,
+    true,
+    true,
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "time": [
+    0.31,
+    0.35,
+    0.75,
+    0.53,
+    1.87,
+    1.48,
+    60.08,
+    60.09,
+    60.09,
+    60.11,
+    60.11,
+    60.21,
+    60.26,
+    60.24,
+    60.24,
+    60.28,
+    60.35,
+    90.1,
+    90.11,
+    90.11
+   ]
+  },
+  "Gecode +I+S": {
+   "variant": "fair-improved-search",
+   "solver": "Gecode",
+   "proven_optimal": 0,
+   "found": 20,
+   "best_known": 2,
+   "par1": 60.0,
+   "mean_extra_hours": 11.15,
+   "max_off": [
+    3,
+    3,
+    3,
+    8,
+    11,
+    11,
+    11,
+    12,
+    11,
+    11,
+    12,
+    22,
+    26,
+    25,
+    25,
+    26,
+    25,
+    43,
+    39,
+    38
+   ],
+   "optimal": [
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "time": [
+    60.09,
+    60.05,
+    60.05,
+    60.06,
+    60.07,
+    60.08,
+    60.08,
+    60.09,
+    60.12,
+    60.11,
+    60.13,
+    60.21,
+    60.27,
+    60.27,
+    60.31,
+    60.34,
+    60.39,
+    60.64,
+    60.75,
+    61.16
+   ]
+  },
+  "Chuffed +I+S": {
+   "variant": "fair-improved-search",
+   "solver": "Chuffed",
+   "proven_optimal": 1,
+   "found": 20,
+   "best_known": 2,
+   "par1": 57.09,
+   "mean_extra_hours": 16.0,
+   "max_off": [
+    3,
+    3,
+    4,
+    12,
+    13,
+    14,
+    14,
+    15,
+    16,
+    16,
+    16,
+    32,
+    32,
+    32,
+    32,
+    32,
+    32,
+    48,
+    48,
+    48
+   ],
+   "optimal": [
+    true,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false,
+    false
+   ],
+   "time": [
+    1.71,
+    60.09,
+    60.06,
+    60.08,
+    60.09,
+    60.1,
+    60.1,
+    60.12,
+    60.13,
+    60.15,
+    60.17,
+    60.3,
+    60.33,
+    60.36,
+    60.45,
+    60.42,
+    60.47,
+    60.94,
+    61.52,
+    61.51
+   ]
+  }
+ },
+ "instances": {
+  "I01": {
+   "tier": "S",
+   "best_fair": [
+    3,
+    232
+   ],
+   "fair_proven": true,
+   "eff": [
+    7,
+    223
+   ],
+   "eff_proven": true,
+   "price_pct": 4.04
+  },
+  "I02": {
+   "tier": "S",
+   "best_fair": [
+    3,
+    321
+   ],
+   "fair_proven": true,
+   "eff": [
+    7,
+    284
+   ],
+   "eff_proven": true,
+   "price_pct": 13.03
+  },
+  "I03": {
+   "tier": "S",
+   "best_fair": [
+    3,
+    339
+   ],
+   "fair_proven": true,
+   "eff": [
+    4,
+    335
+   ],
+   "eff_proven": true,
+   "price_pct": 1.19
+  },
+  "I04": {
+   "tier": "S",
+   "best_fair": [
+    5,
+    600
+   ],
+   "fair_proven": true,
+   "eff": [
+    10,
+    580
+   ],
+   "eff_proven": true,
+   "price_pct": 3.45
+  },
+  "I05": {
+   "tier": "S",
+   "best_fair": [
+    5,
+    975
+   ],
+   "fair_proven": true,
+   "eff": [
+    11,
+    973
+   ],
+   "eff_proven": true,
+   "price_pct": 0.21
+  },
+  "I06": {
+   "tier": "S",
+   "best_fair": [
+    4,
+    894
+   ],
+   "fair_proven": true,
+   "eff": [
+    9,
+    877
+   ],
+   "eff_proven": true,
+   "price_pct": 1.94
+  },
+  "I07": {
+   "tier": "S",
+   "best_fair": [
+    4,
+    964
+   ],
+   "fair_proven": true,
+   "eff": [
+    8,
+    958
+   ],
+   "eff_proven": true,
+   "price_pct": 0.63
+  },
+  "I08": {
+   "tier": "M",
+   "best_fair": [
+    4,
+    1155
+   ],
+   "fair_proven": false,
+   "eff": [
+    6,
+    1155
+   ],
+   "eff_proven": false,
+   "price_pct": 0.0
+  },
+  "I09": {
+   "tier": "M",
+   "best_fair": [
+    4,
+    1620
+   ],
+   "fair_proven": false,
+   "eff": [
+    5,
+    1620
+   ],
+   "eff_proven": false,
+   "price_pct": 0.0
+  },
+  "I10": {
+   "tier": "M",
+   "best_fair": [
+    4,
+    2068
+   ],
+   "fair_proven": false,
+   "eff": [
+    8,
+    2064
+   ],
+   "eff_proven": false,
+   "price_pct": 0.19
+  },
+  "I11": {
+   "tier": "M",
+   "best_fair": [
+    4,
+    2163
+   ],
+   "fair_proven": false,
+   "eff": [
+    5,
+    2160
+   ],
+   "eff_proven": false,
+   "price_pct": 0.14
+  },
+  "I12": {
+   "tier": "M",
+   "best_fair": [
+    8,
+    4818
+   ],
+   "fair_proven": false,
+   "eff": [
+    8,
+    4823
+   ],
+   "eff_proven": false,
+   "price_pct": -0.1
+  },
+  "I13": {
+   "tier": "M",
+   "best_fair": [
+    8,
+    5173
+   ],
+   "fair_proven": false,
+   "eff": [
+    11,
+    5155
+   ],
+   "eff_proven": false,
+   "price_pct": 0.35
+  },
+  "I14": {
+   "tier": "M",
+   "best_fair": [
+    8,
+    6096
+   ],
+   "fair_proven": false,
+   "eff": [
+    10,
+    6093
+   ],
+   "eff_proven": false,
+   "price_pct": 0.05
+  },
+  "I15": {
+   "tier": "L",
+   "best_fair": [
+    8,
+    6882
+   ],
+   "fair_proven": false,
+   "eff": [
+    9,
+    6876
+   ],
+   "eff_proven": false,
+   "price_pct": 0.09
+  },
+  "I16": {
+   "tier": "L",
+   "best_fair": [
+    8,
+    7994
+   ],
+   "fair_proven": false,
+   "eff": [
+    11,
+    7970
+   ],
+   "eff_proven": false,
+   "price_pct": 0.3
+  },
+  "I17": {
+   "tier": "L",
+   "best_fair": [
+    8,
+    9173
+   ],
+   "fair_proven": false,
+   "eff": [
+    11,
+    9161
+   ],
+   "eff_proven": false,
+   "price_pct": 0.13
+  },
+  "I18": {
+   "tier": "L",
+   "best_fair": [
+    16,
+    13890
+   ],
+   "fair_proven": false,
+   "eff": [
+    16,
+    13890
+   ],
+   "eff_proven": false,
+   "price_pct": 0.0
+  },
+  "I19": {
+   "tier": "L",
+   "best_fair": [
+    18,
+    16862
+   ],
+   "fair_proven": false,
+   "eff": [
+    18,
+    16862
+   ],
+   "eff_proven": false,
+   "price_pct": 0.0
+  },
+  "I20": {
+   "tier": "L",
+   "best_fair": [
+    17,
+    19451
+   ],
+   "fair_proven": false,
+   "eff": [
+    17,
+    19451
+   ],
+   "eff_proven": false,
+   "price_pct": 0.0
+  }
+ },
+ "tiers": {
+  "S": {
+   "ids": [
+    "I01",
+    "I02",
+    "I03",
+    "I04",
+    "I05",
+    "I06",
+    "I07"
+   ],
+   "pairs": [
+    "I01",
+    "I02",
+    "I03",
+    "I04",
+    "I05",
+    "I06",
+    "I07"
+   ],
+   "n_both_proven": 7,
+   "fair_shed": 4325,
+   "eff_shed": 4230,
+   "price_pct": 2.25,
+   "fair_maxoff": 3.9,
+   "eff_maxoff": 8.0
+  },
+  "M": {
+   "ids": [
+    "I08",
+    "I09",
+    "I10",
+    "I11",
+    "I12",
+    "I13",
+    "I14"
+   ],
+   "pairs": [
+    "I08",
+    "I09",
+    "I10",
+    "I11",
+    "I12",
+    "I13",
+    "I14"
+   ],
+   "n_both_proven": 0,
+   "fair_shed": 23093,
+   "eff_shed": 23070,
+   "price_pct": 0.1,
+   "fair_maxoff": 5.7,
+   "eff_maxoff": 7.6
+  },
+  "L": {
+   "ids": [
+    "I15",
+    "I16",
+    "I17",
+    "I18",
+    "I19",
+    "I20"
+   ],
+   "pairs": [
+    "I15",
+    "I16",
+    "I17"
+   ],
+   "n_both_proven": 0,
+   "fair_shed": 24049,
+   "eff_shed": 24007,
+   "price_pct": 0.17,
+   "fair_maxoff": 8.0,
+   "eff_maxoff": 10.3
+  }
+ },
+ "extra": {
+  "highs_base_vs_I_shed": {
+   "n": 17,
+   "b_lower": 7,
+   "a_lower": 4,
+   "mean_change_pct": -0.1
+  },
+  "gecode_base_vs_IS_shed": {
+   "n": 20,
+   "b_lower": 19,
+   "a_lower": 1,
+   "mean_change_pct": -54.9
+  },
+  "eff_maxoff_I18_I20": [
+   [
+    16,
+    13890
+   ],
+   [
+    18,
+    16862
+   ],
+   [
+    17,
+    19451
+   ]
+  ],
+  "highs_proof_times": [
+   0.29,
+   0.31,
+   0.9,
+   0.71,
+   1.16,
+   1.14,
+   56.53
+  ],
+  "best": {
+   "I01": [
+    3,
+    232
+   ],
+   "I02": [
+    3,
+    321
+   ],
+   "I03": [
+    3,
+    339
+   ],
+   "I04": [
+    5,
+    600
+   ],
+   "I05": [
+    5,
+    975
+   ],
+   "I06": [
+    4,
+    894
+   ],
+   "I07": [
+    4,
+    964
+   ],
+   "I08": [
+    4,
+    1155
+   ],
+   "I09": [
+    4,
+    1620
+   ],
+   "I10": [
+    4,
+    2068
+   ],
+   "I11": [
+    4,
+    2163
+   ],
+   "I12": [
+    8,
+    4818
+   ],
+   "I13": [
+    8,
+    5173
+   ],
+   "I14": [
+    8,
+    6096
+   ],
+   "I15": [
+    8,
+    6882
+   ],
+   "I16": [
+    8,
+    7994
+   ],
+   "I17": [
+    8,
+    9173
+   ],
+   "I18": [
+    16,
+    13890
+   ],
+   "I19": [
+    18,
+    16862
+   ],
+   "I20": [
+    17,
+    19451
+   ]
+  }
+ }
+}
